@@ -1,0 +1,139 @@
+Create database bank
+CREATE TABLE Branch
+(
+  Name VARCHAR(100) ,
+  location VARCHAR(100) ,
+  number_of_employee INT,
+  branchID INT identity(1,1) ,
+  PRIMARY KEY (branchID)
+);
+
+CREATE TABLE account
+(
+  type_account VARCHAR(100),
+  credit_point INT ,
+  Balance FLOAT ,
+  AccountID INT identity(1,1) ,
+  user_name VARCHAR(100) ,
+  password VARCHAR(100) ,
+  branchID INT,
+  PRIMARY KEY (AccountID),
+  FOREIGN KEY (branchID) REFERENCES Branch(branchID)
+);
+
+CREATE TABLE _transaction
+(
+  Type VARCHAR(100) ,
+  Deposite_account_ INT ,
+  Date DATE ,
+  withdrawal_account INT,
+  transactionID INT identity(1,1)  ,
+  AccountID INT ,
+  PRIMARY KEY (transactionID),
+  FOREIGN KEY (AccountID) REFERENCES account(AccountID)
+);
+
+CREATE TABLE employee
+(
+  first_name VARCHAR(100) ,
+  last_name VARCHAR(100) ,
+  ID INT identity(1,1) ,
+  salary FLOAT ,
+  Start_Date DATE ,
+  type VARCHAR(100) ,
+  Email VARCHAR(100) ,
+  pass VARCHAR(100) ,
+  Enable CHAR(1) ,
+  photo VARCHAR(500) ,
+  branchID INT ,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (branchID) REFERENCES Branch(branchID)
+);
+
+CREATE TABLE ATM
+(
+  CardID INT identity(1,1),
+  holder_name VARCHAR(100),
+  ATM_cash_Limt INT ,
+  AccountID INT ,
+  PRIMARY KEY (CardID),
+  FOREIGN KEY (AccountID) REFERENCES account(AccountID)
+);
+
+CREATE TABLE process
+(
+  tyoe VARCHAR(200) ,
+  processID INT identity(1,1) ,
+  date DATE ,
+  AccountID INT ,
+  PRIMARY KEY (processID),
+  FOREIGN KEY (AccountID) REFERENCES account(AccountID)
+);
+
+CREATE TABLE CRUD
+(
+  AccountID INT ,
+  ID INT,
+  PRIMARY KEY (AccountID, ID),
+  FOREIGN KEY (AccountID) REFERENCES account(AccountID),
+  FOREIGN KEY (ID) REFERENCES employee(ID)
+);
+
+CREATE TABLE employee_phone
+(
+  phone VARCHAR(13) ,
+  ID INT ,
+  PRIMARY KEY (phone, ID),
+  FOREIGN KEY (ID) REFERENCES employee(ID)
+);
+
+CREATE TABLE custmer
+(
+  custmer_id INT identity(1,1) ,
+  first_name VARCHAR(100) ,
+  last_name VARCHAR(100) ,
+  ssn VARCHAR(10) ,
+  city VARCHAR(100) ,
+  street VARCHAR(100) ,
+  age INT ,
+  email VARCHAR(100) ,
+  pass VARCHAR(100)  ,
+  credit_point FLOAT  ,
+  Enable CHAR(1)  ,
+  photo VARCHAR(500)  ,
+  AccountID INT  ,
+  loginAccountID INT  ,
+  PRIMARY KEY (custmer_id),
+  FOREIGN KEY (AccountID) REFERENCES account(AccountID),
+  FOREIGN KEY (loginAccountID) REFERENCES account(AccountID),
+  UNIQUE (ssn)
+);
+
+CREATE TABLE loan
+(
+  loanID INT  ,
+  amount INT  ,
+  custmer_id INT  ,
+  AccountID INT  ,
+  PRIMARY KEY (loanID),
+  FOREIGN KEY (custmer_id) REFERENCES custmer(custmer_id),
+  FOREIGN KEY (AccountID) REFERENCES account(AccountID)
+);
+
+CREATE TABLE help
+(
+hlep_num int identity(1,1) ,
+  ID INT ,
+  custmer_id INT  ,
+  PRIMARY KEY (hlep_num),
+  FOREIGN KEY (ID) REFERENCES employee(ID),
+  FOREIGN KEY (custmer_id) REFERENCES custmer(custmer_id)
+);
+
+CREATE TABLE custmer__phone_
+(
+  _phone_ VARCHAR(13)  ,
+  custmer_id INT  ,
+  PRIMARY KEY (_phone_, custmer_id),
+  FOREIGN KEY (custmer_id) REFERENCES custmer(custmer_id)
+);

@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\20199\\Desktop\\amer karam\\bank\\bank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEEF6F8A-BB82-4DC1-8DD9-D12B758D31D5}|Bank\\Bank.csproj|c:\\users\\20199\\desktop\\amer karam\\bank\\bank\\bank\\controllers\\custmerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEEF6F8A-BB82-4DC1-8DD9-D12B758D31D5}|Bank\\Bank.csproj|solutionrelative:bank\\controllers\\custmerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEEF6F8A-BB82-4DC1-8DD9-D12B758D31D5}|Bank\\Bank.csproj|c:\\users\\20199\\desktop\\amer karam\\bank\\bank\\bank\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEEF6F8A-BB82-4DC1-8DD9-D12B758D31D5}|Bank\\Bank.csproj|solutionrelative:bank\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEEF6F8A-BB82-4DC1-8DD9-D12B758D31D5}|Bank\\Bank.csproj|c:\\users\\20199\\desktop\\amer karam\\bank\\bank\\bank\\dto\\subemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEEF6F8A-BB82-4DC1-8DD9-D12B758D31D5}|Bank\\Bank.csproj|solutionrelative:bank\\dto\\subemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEEF6F8A-BB82-4DC1-8DD9-D12B758D31D5}|Bank\\Bank.csproj|c:\\users\\20199\\desktop\\amer karam\\bank\\bank\\bank\\model\\modelcustmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEEF6F8A-BB82-4DC1-8DD9-D12B758D31D5}|Bank\\Bank.csproj|solutionrelative:bank\\model\\modelcustmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "subEmp.cs",
+              "DocumentMoniker": "C:\\Users\\20199\\Desktop\\amer karam\\bank\\bank\\Bank\\DTO\\subEmp.cs",
+              "RelativeDocumentMoniker": "Bank\\DTO\\subEmp.cs",
+              "ToolTip": "C:\\Users\\20199\\Desktop\\amer karam\\bank\\bank\\Bank\\DTO\\subEmp.cs",
+              "RelativeToolTip": "Bank\\DTO\\subEmp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:50:44.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "modelcustmer.cs",
+              "DocumentMoniker": "C:\\Users\\20199\\Desktop\\amer karam\\bank\\bank\\Bank\\Model\\modelcustmer.cs",
+              "RelativeDocumentMoniker": "Bank\\Model\\modelcustmer.cs",
+              "ToolTip": "C:\\Users\\20199\\Desktop\\amer karam\\bank\\bank\\Bank\\Model\\modelcustmer.cs",
+              "RelativeToolTip": "Bank\\Model\\modelcustmer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:32:02.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\20199\\Desktop\\amer karam\\bank\\bank\\Bank\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Bank\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\20199\\Desktop\\amer karam\\bank\\bank\\Bank\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Bank\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAHMCAAAAAAAAAAAiwIUCAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:16:33.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustmersController.cs",
+              "DocumentMoniker": "C:\\Users\\20199\\Desktop\\amer karam\\bank\\bank\\Bank\\Controllers\\CustmersController.cs",
+              "RelativeDocumentMoniker": "Bank\\Controllers\\CustmersController.cs",
+              "ToolTip": "C:\\Users\\20199\\Desktop\\amer karam\\bank\\bank\\Bank\\Controllers\\CustmersController.cs",
+              "RelativeToolTip": "Bank\\Controllers\\CustmersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:12:37.328Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
